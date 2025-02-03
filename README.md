@@ -1,4 +1,4 @@
-## Источник: [multi-sized-ico](https://github.com/N3M1X10/batch-tools/tree/main/image-magick/multi-sized-ico)
+# multi-sized-ico
 ### Преобразование `.png` в иконку, с сразу несколькими вшитыми размерами
 >[!tip]
 >1. Запусти **`convert.bat`**, создадутся папки `input` и `output` (единоразовое действие)
