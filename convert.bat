@@ -2,7 +2,7 @@
 setlocal
 chcp 65001>nul
 echo Compressing PNG into multi-sized .ico file
-echo https://github.com/N3M1X10/batch-tools/tree/main/image-magick/multi-sized-ico
+echo https://github.com/N3M1X10/multi-sized-ico/
 echo.
 
 cd /d "%~dp0"
