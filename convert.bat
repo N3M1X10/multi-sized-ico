@@ -34,9 +34,9 @@ echo.
 set /p ask=Choose sizes option: 
 echo.
 :: options block, reader
-if "%ask%"=="1" set com-opt=16,32,48,64               &goto compress
-if "%ask%"=="2" set com-opt=16,24,32,48,64,72,128     &goto compress
-if "%ask%"=="3" set com-opt=16,24,32,48,64,72,128,256 &goto compress
+if "%ask%"=="1" set com-opt="16,32,48,64"                   &goto compress
+if "%ask%"=="2" set com-opt="16,24,32,48,64,72,128"         &goto compress
+if "%ask%"=="3" set com-opt="16,24,32,48,64,72,128,256"     &goto compress
 if "%ask%"=="f" goto flush
 echo error & goto end
 
